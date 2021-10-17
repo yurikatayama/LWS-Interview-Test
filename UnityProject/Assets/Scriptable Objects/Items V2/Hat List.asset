@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a397cf4694c23349ab275a36e5fe43a, type: 3}
+  m_Name: Hat List
+  m_EditorClassIdentifier: 
+  items:
+  - animator: {fileID: 9100000, guid: 78a90972b4558aa42a660b9e8f35238f, type: 2}
+    type: 0
+    icon: {fileID: -1205469482745964699, guid: 1cbf845d2a96dc343b824744104d8b47, type: 3}
+    price: 0
+    ID: HC001ID000
+    name: None
+    description: No hat
+  - animator: {fileID: 9100000, guid: a153efc460bc8974f9a4bbcf7067f464, type: 2}
+    type: 0
+    icon: {fileID: 21300000, guid: 78040e9aef0a79c4ba571e41ee67d1b2, type: 3}
+    price: 10
+    ID: HC001ID001
+    name: Grey Hat
+    description: 'Grey hat '
+  - animator: {fileID: 9100000, guid: d17192dc65b94614b9095585859e89a6, type: 2}
+    type: 0
+    icon: {fileID: 21300000, guid: b8edccbeb1bd4d44b8b2e195149007d8, type: 3}
+    price: 14
+    ID: HC001ID002
+    name: Red Hat
+    description: Red hat
+  - animator: {fileID: 9100000, guid: f3f9dd6cddf83c148b05bc837e158705, type: 2}
+    type: 0
+    icon: {fileID: 21300000, guid: 8abaf1f6d29d0c844a62d71640dba735, type: 3}
+    price: 12
+    ID: HC001ID003
+    name: Blue Hat
+    description: Blue hat

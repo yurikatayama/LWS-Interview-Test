@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a397cf4694c23349ab275a36e5fe43a, type: 3}
+  m_Name: Shirt List
+  m_EditorClassIdentifier: 
+  items:
+  - animator: {fileID: 9100000, guid: 5d18edada89cc444cbdb000779ab7969, type: 2}
+    type: 1
+    icon: {fileID: -1205469482745964699, guid: 1cbf845d2a96dc343b824744104d8b47, type: 3}
+    price: 0
+    ID: SC001ID000
+    name: No shirt
+    description: No shirt
+  - animator: {fileID: 9100000, guid: 0445cd60bf3ecc748aafc4df316a5d84, type: 2}
+    type: 1
+    icon: {fileID: 21300000, guid: 81acccaf2cdbfc445a82cd2061d3845d, type: 3}
+    price: 15
+    ID: SC001ID001
+    name: Grey Shirt
+    description: Grey shirt
+  - animator: {fileID: 9100000, guid: a89f92d67a0be064abb12f15170ea5fb, type: 2}
+    type: 1
+    icon: {fileID: 21300000, guid: e582d481ed80fcb4da98e58dc9f935d1, type: 3}
+    price: 25
+    ID: SC001ID002
+    name: Red Shirt
+    description: Red shirt
+  - animator: {fileID: 9100000, guid: d55b59ece8b6f374ba9ec40b95341c1b, type: 2}
+    type: 1
+    icon: {fileID: 21300000, guid: d91aed06b2385e44787d545660c75c3e, type: 3}
+    price: 20
+    ID: SC001ID003
+    name: Blue Shirt
+    description: Blue shirt
