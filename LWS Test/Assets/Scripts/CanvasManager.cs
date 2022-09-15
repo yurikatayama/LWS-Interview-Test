@@ -11,11 +11,6 @@ public class CanvasManager : MonoBehaviour {
     [SerializeField] public ShirtManager shirtMan;
     [SerializeField][ReadOnly] float distance;
 
-    private bool CheckDistance () {
-        distance = Vector2.Distance (shopKeeper.position, player.position);
-        return distance < 2;
-    }
-
     private void Update () {
         if (Input.GetKeyDown (KeyCode.Tab)) ToggleControls ();
         if (CheckDistance ()) {
@@ -43,5 +38,10 @@ public class CanvasManager : MonoBehaviour {
     public void ToggleControls () {
         controls.SetActive (!(controls.activeInHierarchy));
         print ("controls is: " + dresser.activeInHierarchy);
+    }
+
+    private bool CheckDistance () {
+        distance = Vector2.Distance (shopKeeper.position, player.position);
+        return distance < 2;
     }
 }

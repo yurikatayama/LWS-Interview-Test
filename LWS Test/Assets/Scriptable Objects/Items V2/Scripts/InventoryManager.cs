@@ -7,7 +7,7 @@ public class InventoryManager : MonoBehaviour {
     public List<InventoryItem> inventoryItem;
 
     private void Update () {
-        //AddItemsDebug ();
+        AddItemsDebug ();
     }
 
     public void AddItemToInventory (string addedID) {
@@ -37,7 +37,17 @@ public class InventoryManager : MonoBehaviour {
 
     void AddItemsDebug () {
         if (Input.GetKeyDown (KeyCode.R)) {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1000; i++) {
+                AddItemToInventory ("HC001ID001");
+                AddItemToInventory ("HC001ID002");
+                AddItemToInventory ("HC001ID003");
+                AddItemToInventory ("SC001ID001");
+                AddItemToInventory ("SC001ID002");
+                AddItemToInventory ("SC001ID003");
+            }
+        }
+        if (Input.GetKeyDown (KeyCode.F)) {
+            for (int i = 0; i < 50; i++) {
                 AddItemToInventory ("HC001ID001");
                 AddItemToInventory ("HC001ID002");
                 AddItemToInventory ("HC001ID003");
